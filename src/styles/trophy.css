@@ -1,0 +1,99 @@
+/* Trophy Section Container */
+.trophy-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* Title & Subtitle */
+  .section-title,
+.section-subtitle {
+  text-align: center;
+}
+  
+  /* Two-Column Layout */
+  .trophy-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  /* Left Side - Trophy Background */
+  .trophy-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .trophy-bg-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px #F57921;
+  }
+  
+  /* Right Side - Swiper */
+  .trophy-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Swiper Styles */
+  .swiper {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0;
+  }
+  
+  .trophy-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 280px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #00AC36;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  /* Full-Height Certificate Image */
+.swiper-image {
+    width: 100%;
+    height: auto; /* Maintain full height */
+    max-height: 250px; /* Adjust as needed */
+    object-fit: contain; /* Ensure full visibility */
+  }
+  
+  .swiper-slide-active .swiper-image {
+    transform: scale(1.08); /* Zoom effect on active slide */
+  }
+  
+  .trophy-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .trophy-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .trophy-bg-image {
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    .swiper {
+      max-width: 300px;
+    }
+  }
+  

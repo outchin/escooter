@@ -1,0 +1,92 @@
+/* Header container */
+.header-appbar {
+    background: linear-gradient(45deg, #ffffff 50%, #8b8b8b 50%);
+  }
+  
+  /* Logo */
+  .header-logo {
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+  }
+  
+  /* Navigation buttons */
+  .header-nav-button {
+    color: black !important;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .header-nav-button:hover {
+    color: #D37E24 !important;
+  }
+  
+  /* Language selector */
+  .header-language-selector {
+    margin-left: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .header-language-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-language-flag {
+    width: 24px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  
+  /* Mobile menu icon */
+  .header-menu-icon {
+    color: #D37E24;
+    margin-left: auto;
+    /* Position the menu icon at the end */
+  }
+  
+  /* Mobile Drawer (Sidebar) */
+  .header-drawer {
+    width: 250px;
+  }
+  
+  /* Drawer container */
+  .header-drawer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+
+  }
+  
+  /* Drawer logo */
+  .header-drawer-logo img {
+    width: 75px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Active Tab */
+  .active-tab {
+    color: green !important; /* Change text color to green */
+    font-weight: bold; /* Make it bold */
+  }
+  
+  /* Mobile Drawer (Sidebar) - List Item Text */
+.header-drawer .MuiListItemText-primary {
+    color: black; /* Default text color */
+  }
+  
+  /* Change color of text when active (selected link) */
+  .header-drawer .MuiListItemText-primary.active-tab {
+    color: green !important; /* Active text color */
+    font-weight: bold; /* Make it bold */
+  }
+  
+  /* Change text color when hovered */
+  .header-drawer .MuiListItemText-primary:hover {
+    color: orange !important; /* Hover text color */
+  }
+  
